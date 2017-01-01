@@ -1,0 +1,25 @@
+{
+  "name": "mockingjay",
+  "version": "0.0.1",
+  "description": "\"Provides Mockdata or downloads it from predefined REST services\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonzerelly/mockingjay.js.git"
+  },
+  "keywords": [
+    "mockdata",
+    "json-server",
+    "angular",
+    "client-app"
+  ],
+  "author": "Christian Hoerauf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonzerelly/mockingjay.js/issues"
+  },
+  "homepage": "https://github.com/fonzerelly/mockingjay.js#readme"
+}
