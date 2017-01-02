@@ -24,7 +24,8 @@
   "homepage": "https://github.com/fonzerelly/mockingjay.js#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "chai-http": "^3.0.0"
+    "chai-http": "^3.0.0",
+    "rewire": "^2.5.2"
   },
   "dependencies": {
     "json-server": "^0.9.4"
