@@ -25,10 +25,12 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
+    "nock": "^9.0.2",
     "rewire": "^2.5.2"
   },
   "dependencies": {
     "json-server": "^0.9.4",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "superagent": "^3.3.1"
   }
 }
