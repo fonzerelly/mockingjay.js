@@ -2,5 +2,6 @@
 node_modules
 *.swp
 *.swo
+*.swn
 npm-debug.log
 
