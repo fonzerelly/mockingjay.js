@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/fonzerelly/mockingjay.js#readme",
   "devDependencies": {
+    "angular": "^1.6.1",
+    "angular-mocks": "^1.6.1",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
+    "jsdom": "^9.9.1",
     "nock": "^9.0.2",
     "rewire": "^2.5.2"
   },
