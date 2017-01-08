@@ -37,6 +37,7 @@
   "dependencies": {
     "json-server": "^0.9.4",
     "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
     "superagent": "^3.3.1"
   }
 }

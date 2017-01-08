@@ -1,5 +1,3 @@
-
-
                            :.
                          i.,..
                        :::,:,iirLJuuuU1511uY7i:.
@@ -46,3 +44,7 @@
        :,,1Mi              .:r77r;iiiiiirirr77vri.              r
      :U8Pr:                           ..
   77,
+
+            MOCKINGJAY is running at http://localhost:<%= port%>
+                            with <%= db%>
+<%= message%>

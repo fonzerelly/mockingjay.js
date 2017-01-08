@@ -1,0 +1,12 @@
+mockingjay --db db.json --port 3000
+
+starts a server that can catch your rest calls and
+stores the corresponding answers of your REST services,
+to let you provide usefull REST answers if your real
+REST service is turned off.
+
+--db awaits a json-file that contains all the answers
+of your REST service
+
+--port allows you to run mockinjay on another port
+
