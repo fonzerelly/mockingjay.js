@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jasmine"
   },
+  "bin": {
+    "mockingjay": "./bin/mockingjay.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fonzerelly/mockingjay.js.git"
