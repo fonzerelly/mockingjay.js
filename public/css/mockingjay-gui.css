@@ -2,9 +2,17 @@ body {
     background-color: rgb(184, 184, 177);
     color: rgb(156, 25, 9);
 }
-mjay-url-input__output {
-    border-left-style: 1px solid rgb(176, 45, 29);
-    border-top-style: 1px solid rgb(176, 45, 29);
-    border-right-style: 1px solid rgb(146, 15, 0);
-    border-bottom-style: 1px solid rgb(146, 15, 0);
+mjay-url-input input[type="text"] {
+    width: 60em;
+}
+.mjay-url-input__output {
+    height: 80%;
+    border-style: solid;
+    border-width: 0.2em;
+    border-bottom-color: rgb(204, 204, 197);
+    border-right-color: rgb(204, 204, 197);
+    border-top-color: rgb(164, 164, 157);
+    border-left-color: rgb(164, 164, 157);
+    margin-right: 1em;
+    margin-botton: 1em;
 }
