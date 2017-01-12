@@ -4,7 +4,8 @@
   "description": "\"Provides Mockdata or downloads it from predefined REST services\"",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "postinstall": "copyfiles -f ./node_modules/angular/angular.js public/js lib/adapters/mockingjay-ng1-adapter.js public/js/untracked && copyfiles -f ./node_modules/bootstrap/dist/css/bootstrap.css public/css/untracked"
   },
   "bin": {
     "mockingjay": "./bin/mockingjay.js"
@@ -26,7 +27,6 @@
   },
   "homepage": "https://github.com/fonzerelly/mockingjay.js#readme",
   "devDependencies": {
-    "angular": "^1.6.1",
     "angular-mocks": "^1.6.1",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
@@ -35,6 +35,9 @@
     "rewire": "^2.5.2"
   },
   "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "copyfiles": "^1.0.0",
     "json-server": "^0.9.4",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",

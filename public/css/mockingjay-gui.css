@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(184, 184, 177);
+    color: rgb(156, 25, 9);
+}
+mjay-url-input__output {
+    border-left-style: 1px solid rgb(176, 45, 29);
+    border-top-style: 1px solid rgb(176, 45, 29);
+    border-right-style: 1px solid rgb(146, 15, 0);
+    border-bottom-style: 1px solid rgb(146, 15, 0);
+}

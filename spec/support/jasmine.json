@@ -1,10 +1,11 @@
 {
-  "spec_dir": "lib",
+  "spec_dir": ".",
   "spec_files": [
-    "**/*.spec.js"
+    "lib/**/*.spec.js",
+    "public/**/*.spec.js"
   ],
   "helpers": [
-    "../spec/**/*.js"
+    "spec/**/*.js"
   ],
   "stopSpecOnExpectationFailure": false,
   "random": false
