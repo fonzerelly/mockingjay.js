@@ -1,4 +1,4 @@
-# Mockingjay
+# Mockingjay.js
 
 ## When should you use Mockingjay
 Did you ever created client centric apps like
