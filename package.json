@@ -1,6 +1,6 @@
 {
   "name": "mockingjay",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "\"Provides Mockdata or downloads it from predefined REST services\"",
   "main": "index.js",
   "scripts": {
