@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "postinstall": "copyfiles -f ./node_modules/angular/angular.js public/js lib/adapters/mockingjay-ng1-adapter.js public/js/untracked && copyfiles -f ./node_modules/bootstrap/dist/css/bootstrap.css public/css/untracked"
+    "postinstall": "mockingjay_postinstall"
   },
   "bin": {
-    "mockingjay": "./bin/mockingjay.js"
+    "mockingjay": "./bin/mockingjay.js",
+    "mockingjay_postinstall": "./bin/mockingjay_postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,7 @@
   "dependencies": {
     "angular": "^1.6.1",
     "bootstrap": "^3.3.7",
-    "copyfiles": "^1.0.0",
+    "fs-extra": "^1.0.0",
     "json-server": "^0.9.4",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",

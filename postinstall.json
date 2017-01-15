@@ -1,0 +1,7 @@
+{
+    "copy_files": {
+        "<%= PWD%>/node_modules/angular/angular.js": "public/js/untracked/angular.js",
+        "lib/adapters/mockingjay-ng1-adapter.js"   : "public/js/untracked/mockingjay-ng1-adapter.js",
+        "<%= PWD%>/node_modules/bootstrap/dist/css/bootstrap.css": "public/css/untracked/bootstrap.css"
+    }
+}
